@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Data Stream\Reader.cpp" />
+    <ClCompile Include="msf\Types\Structure.cpp" />
+    <ClCompile Include="Data Stream\Integer.cpp" />
+    <ClCompile Include="msf\Types\Public Symbol.cpp" />
+    <ClCompile Include="msf\Pdb.cpp" />
+    <ClCompile Include="msf\Streams\Dbi.cpp" />
+    <ClCompile Include="msf\Streams\Info.cpp" />
+    <ClCompile Include="msf\Streams\Layouts.cpp" />
+    <ClCompile Include="msf\Streams\Mapped Block.cpp" />
+    <ClCompile Include="msf\Streams\Msf Layouts.cpp" />
+    <ClCompile Include="msf\Streams\Stream.cpp" />
+    <ClCompile Include="msf\Streams\Symbol Records.cpp" />
+    <ClCompile Include="msf\Streams\Tpi.cpp" />
+    <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="Container.cpp" />
+    <ClCompile Include="Cache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Data Stream\Reader.hpp" />
+    <ClInclude Include="Data Stream\Integer.hpp" />
+    <ClInclude Include="Data Stream\Stream.hpp" />
+    <ClInclude Include="msf\Types.hpp" />
+    <ClInclude Include="msf\Leaf Type.hpp" />
+    <ClInclude Include="msf\Types\Structure.hpp" />
+    <ClInclude Include="msf\Record.hpp" />
+    <ClInclude Include="msf\Types\Variable.hpp" />
+    <ClInclude Include="msf\Types\Enum.hpp" />
+    <ClInclude Include="msf\Types\Union.hpp" />
+    <ClInclude Include="msf\Types\Array.hpp" />
+    <ClInclude Include="msf\Type Index.hpp" />
+    <ClInclude Include="msf\Symbol Type.hpp" />
+    <ClInclude Include="msf\Types\Public Symbol.hpp" />
+    <ClInclude Include="msf\Types\Bit Field.hpp" />
+    <ClInclude Include="Helpers.hpp" />
+    <ClInclude Include="msf\Streams\Layouts.hpp" />
+    <ClInclude Include="msf\Streams\Msf Layouts.hpp" />
+    <ClInclude Include="msf\Streams\Mapped Block.hpp" />
+    <ClInclude Include="msf\Pdb.hpp" />
+    <ClInclude Include="msf\Streams\Info.hpp" />
+    <ClInclude Include="msf\Streams\Stream.hpp" />
+    <ClInclude Include="msf\Streams\Tpi.hpp" />
+    <ClInclude Include="msf\Streams\Dbi.hpp" />
+    <ClInclude Include="msf\Streams\Symbol Records.hpp" />
+    <ClInclude Include="Container.hpp" />
+    <ClInclude Include="Cache.hpp" />
+  </ItemGroup>
+</Project>
